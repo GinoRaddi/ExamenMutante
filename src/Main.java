@@ -11,29 +11,55 @@ public class Main {
                 "CCCCTA",
                 "TCACTG" };
 
-        String[] dna1234 = {
-                "CCCCTA",
-                "AGCTAG",
-                "TACCAG",
-                "ATGACA",
-                "ATASFG",
-                "ASDASD" };
-
-        String[] dna12345= {
+        //Caso de Prueba 1 NO MUTANTE
+        String[] dnacasero1 = {
                 "ATGCGA",
                 "CAGTGC",
                 "TTGTGT",
                 "AGAATG",
                 "CCGCTA",
-                "TCACTG"};
+                "TCACTG"
+        };
 
-        String[] dna123123 = {
+        //Caso de Prueba 2 NO MUTANTE
+        String[] dnacasero2 = {
+                "ATGCGA",
+                "CAGTAC",
+                "TTGTGA",
+                "AGAAGG",
+                "TCCCTA",
+                "TCACTA"
+        };
+
+        //Caso de Prueba 1 MUTANTE
+        String[] dnacasero3 = {
+                "ATGCGA",
+                "CAGTGC",
+                "TTATGA",
+                "AGTAGA",
+                "TCCTTA",
+                "TCACTA"
+        };
+
+        //Caso de Prueba 2 MUTANTE
+        String[] dnacasero4 = {
+                "ATGCGA",
+                "CAGTGC",
+                "TTATGT",
+                "AGAAGG",
                 "CCCCTA",
-                "AGCTAG",
-                "TATTCG",
-                "ATTACA",
-                "ATASFG",
-                "ASDASD" };
+                "TCACTG"
+        };
+
+        //Caso de Prueba 2 MUTANTE
+        String[] dnacasero5 = {
+                "ATGCGA",
+                "CAGTAC",
+                "TTAAGT",
+                "AGAAGG",
+                "CCCCTA",
+                "TCACTG"
+        };
 
 
 
